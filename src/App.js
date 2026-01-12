@@ -1,10 +1,10 @@
 import './App.css';
-import index from './Components/TicTacToe/TicTacToe';
+import TicTacToe from './Components/TicTacToe/TicTacToe';
 
 function App() {
   return (
     <div>
-      <index/>
+      <TicTacToe/>
     </div>
   );
 }
