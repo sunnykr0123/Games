@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react'
-import circle from '../Images/circle.jpeg'
-import cross from '../Images/cross.jpeg'
-import './TicTacToe.css';
+import circle from '../assets/images/circle.jpeg'
+import cross from '../assets/images/cross.jpeg'
+import '../assets/css/Styles.css';
 let arr=[" "," "," "," "," "," "," "," "," "];
 const TicTacToe = () => {
     let [count,setCount]=useState(0);
